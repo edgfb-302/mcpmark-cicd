@@ -1,13 +1,9 @@
-// This file contains intentional linting violations
+// This file demonstrates proper code style following ESLint rules
 
-const unusedVar = "This variable is never used"
-
-function badFunction() {
-  console.log("Using double quotes instead of single quotes")
-  var x = 10
-  return x
+function goodFunction() {
+  console.log('Using single quotes as required');
+  const x = 10;
+  return x;
 }
 
-const anotherUnused = 42
-
-export default badFunction
+export default goodFunction;
